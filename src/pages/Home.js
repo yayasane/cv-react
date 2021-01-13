@@ -5,7 +5,15 @@ const Home = () => {
     return (
         <div className="home">
             <Navigation />
-            Home C'est ici
+            <div className="homeContent">
+                <div className="content">
+                    <h1>Yaya SANE</h1>
+                    <h2>Développeur FullStack</h2>
+                    <div className="pdf">
+                        <a href="./media/CV.pdf" target="_blank">Télécharger CV</a>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };
